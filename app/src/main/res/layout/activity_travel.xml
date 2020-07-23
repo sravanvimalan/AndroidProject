@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundimage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+    <CheckBox
+        android:id="@+id/idcbBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Business Travel"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/idcbSolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Solo Travel"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Travel With Friends"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Family Travel"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Travel With Group"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbLuxury"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Luxury Travel"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbAdventure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Adventure Travel"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="submit" />
+
+
+
+</LinearLayout>

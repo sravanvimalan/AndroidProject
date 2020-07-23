@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundimage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animals"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+    <CheckBox
+        android:id="@+id/idinvertebrates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="invertebrates"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/idmammals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="mammals"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idbirds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="birds"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idamphibians"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="amphibians"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idreptiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="reptiles"
+        android:textSize="20dp" />
+
+
+
+
+    <CheckBox
+        android:id="@+id/idfish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="fish"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="submit" />
+
+
+
+
+
+</LinearLayout>

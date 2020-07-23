@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundimage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="common technology"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+    <CheckBox
+        android:id="@+id/idcbIOT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Internet of Things"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/idcbRobotics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Robotics"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Artificial Intelligence"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Super intelligence"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbABT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Agriculture and bio technology"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="construction technology"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcbbockchain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Blockchain technology"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="submit" />
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundimage"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genres of Books"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+    <CheckBox
+        android:id="@+id/idactionnadventre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Action and Adventure"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/idcomic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Comic and Graphic Novel"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idcrime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Crime and Detective"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/iddrama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Drama"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idhorror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Horror"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idhumor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Humor"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/idmystrery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:text="Mystery"
+        android:textSize="20dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="submit"
+        android:id="@+id/submit"
+        />
+
+
+</LinearLayout>
